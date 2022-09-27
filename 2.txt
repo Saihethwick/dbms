@@ -1,0 +1,21 @@
+CREATE TABLE zBK(
+  sno int,
+  cust_name varchar(50),
+  acc_no text,
+  balance varchar(50),
+  cus_branch varchar(10)
+  );
+  INSERT INTO zBK
+  (sno,cust_name,acc_no,balance,cus_branch)
+  VALUES ('1','AJAY','342564279','200000','HYD');
+  INSERT INTO zBK
+  VALUES ('2','BISHAL','342564456','400000','BLR');
+  INSERT INTO zBK
+  VALUES ('3','CHARITHA','342564678','700000','GUJ');
+  INSERT INTO zBK
+  VALUES ('4','DHANUSH','3425644986','900000','DLH');
+  INSERT INTO zBK
+  VALUES ('5','ESHA','3425643456','1000000','VJW');
+  UPDATE zBK
+  SET cus_branch='pondicherry'
+  WHERE acc_no=342564456;
